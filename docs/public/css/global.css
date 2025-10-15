@@ -1,0 +1,44 @@
+html{
+padding: 30px;
+background: beige;
+}
+body {
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+max-width: 1000px;
+font-family: 'Georgia', serif;
+background: white;
+overflow-x: hidden;
+box-sizing: border-box;
+word-break:initial;
+padding: 30px;
+border: 1px solid #663300;
+  -webkit-box-shadow: 6px 10px 17px rgba(102, 51, 0, 0.8);
+  -moz-box-shadow: 6px 10px 17px rgba(102, 51, 0, 0.8);
+  box-shadow: 6px 10px 17px rgba(102, 51, 0, 0.8);
+}
+@font-face {
+font-family: 'Georgia';
+src: url('/public/fonts/Georgia-Regular.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Georgia';
+src: url('/public/fonts/Georgia-Bold.woff2') format('woff2');
+font-weight: bold;
+font-style: normal;
+}
+
+h1{
+font-size: 100px;
+line-height: 100px;
+margin: 0;
+}
+p{
+font-size: 25px;
+line-height: 30px;
+margin: 0;
+}
